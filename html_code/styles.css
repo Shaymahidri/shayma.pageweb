@@ -1,0 +1,196 @@
+/* styles.css */
+
+/* Réinitialisation des styles par défaut du navigateur */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Mise en page générale */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 30px;
+    padding: 30px;
+    background-color: #fff;
+}
+
+/* Style des titres */
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    color: blue;
+}
+
+/* Style des images */
+img {
+    max-width: 80%; /* Pour que l'image s'adapte à la largeur du conteneur */
+    height: auto; /* Garantit que les proportions de l'image sont conservées */
+    display: block; /* Supprime l'espace sous l'image */
+    margin: 20px auto; /* Centre l'image horizontalement avec un espacement de 20px en haut et en bas */
+    border: 2px solid #333; /* Ajoute une bordure de 2px solide en couleur grise (#333) */
+    border-radius: 10px; /* Ajoute un arrondi aux coins de la bordure */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Ajoute une ombre légère à l'image */
+    transition: transform 0.3s; /* Ajoute une transition de 0.3 secondes à l'image */
+}
+
+img:hover {
+    transform: scale(1.05); /* Zoom de 5% lorsque vous survolez l'image */
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* styles.css */
+
+/* Styles pour la navigation */
+nav {
+    background-color: #333; /* Couleur de fond du menu */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px; /* Espace entre les éléments du menu */
+}
+
+a {
+    text-decoration: none; /* Supprime les soulignements des liens */
+    color: #fff; /* Couleur du texte des liens */
+    font-weight: bold; /* Texte en gras */
+    font-size: 16px; /* Taille du texte */
+    transition: color 0.3s; /* Transition de couleur au survol */
+}
+
+a:hover {
+    color: blue; /* Couleur différente au survol */
+}
+/* styles.css */
+
+/* Styles pour la section de présentation */
+#presentation {
+    background-color: white; /* Couleur de fond de la section */
+    padding: 20px; /* Espace intérieur de la section */
+    text-align: center; /* Centrer le contenu horizontalement */
+    border-radius: 30px; /* Coins arrondis de la section */
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3); /* Ajoute une ombre légère à la section */
+}
+
+h2 {
+    font-size: 24px; /* Taille du titre */
+    color: blue; /* Couleur du titre */
+}
+
+p {
+    font-size: 16px; /* Taille du texte */
+    color: #666; /* Couleur du texte */
+}
+
+#histoire {
+    background-color: white; /* Couleur de fond de la section */
+    padding: 20px; /* Espace intérieur de la section */
+    text-align: center; /* Centrer le contenu horizontalement */
+    border-radius: 30px; /* Coins arrondis de la section */
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3); /* Ajoute une ombre légère à la section */
+}
+
+h2 {
+    font-size: 24px; /* Taille du titre */
+    color: blue; /* Couleur du titre */
+}
+
+p {
+    font-size: 16px; /* Taille du texte */
+    color: #666; /* Couleur du texte */
+}
+
+#photos {
+    background-color: white; /* Couleur de fond de la section */
+    padding: 20px; /* Espace intérieur de la section */
+    text-align: center; /* Centrer le contenu horizontalement */
+    border-radius: 30px; /* Coins arrondis de la section */
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3); /* Ajoute une ombre légère à la section */
+}
+
+h2 {
+    font-size: 24px; /* Taille du titre */
+    color: blue; /* Couleur du titre */
+}
+
+p {
+    font-size: 16px; /* Taille du texte */
+    color: #666; /* Couleur du texte */
+}
+
+
+
+
+
+/* styles.css */
+
+/* Styles pour le pied de page */
+footer {
+    background-color: #333; /* Couleur de fond du pied de page */
+    color: #fff; /* Couleur du texte */
+    text-align: center; /* Centrer le texte horizontalement */
+    padding: 10px; /* Espace intérieur du pied de page */
+}
+
+p {
+    font-size: 14px; /* Taille de police du texte */
+}
+
+a {
+    color: #ff9900; /* Couleur du lien (par exemple, couleur orangée) */
+    text-decoration: none; /* Supprime les soulignements des liens */
+}
+
+a:hover {
+    text-decoration: underline; /* Soulignement du lien au survol */
+}
